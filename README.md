@@ -1,28 +1,23 @@
-# Study App — No Login
+# স্টাডি বাংলা — Hard MCQ Edition
 
-A simple, original study and MCQ practice app. No login, signup, backend, or database is required.
+শুধু ৪টি বিষয়:
+- জীববিজ্ঞান
+- রসায়ন
+- পদার্থবিজ্ঞান
+- বাংলাদেশ ও বিশ্বপরিচয় (BGS)
 
-## Features
-- Subject cards
-- Chapter/topic selection
-- MCQ practice
-- Countdown timer
-- Instant score
-- Answer explanations
-- Local progress saved in browser
-- Search
-- Dark mode
-- Works as a static GitHub Pages site
+## নতুন MCQ engine
+- একই MCQ বারবার পরপর আসে না।
+- `localStorage`-এ দেখা প্রশ্নের history রাখা হয়।
+- আগে না-দেখা প্রশ্নকে অগ্রাধিকার দেওয়া হয়।
+- একই concept আবার এলে question wording বদলায়।
+- options প্রতিবার shuffle হয় এবং correct answer-এর position বদলাতে পারে।
+- concept-based/challenge presentation আছে।
+- গুরুত্বপূর্ণ সংজ্ঞার আলাদা section আছে।
+- progress device-এই save হয়; login/backend লাগে না।
 
-## Run
-Just open `index.html` in a browser.
+### গুরুত্বপূর্ণ
+এখানকার ১০,০০০+ প্রশ্ন original practice/board-style। গত ৮ বছরের board questions হুবহু কপি করা হয়নি। Board-trend অনুসরণ করে concept, definition, application, misconception এবং tricky practice-এর দিকে design করা হয়েছে।
 
-For GitHub Pages:
-1. Create a GitHub repository.
-2. Upload all files from this folder.
-3. Go to Settings → Pages.
-4. Select the main branch and `/root`.
-5. Save.
-
-## Add your own questions
-Edit `data.js`. Each subject contains chapters and questions.
+## GitHub Pages
+এটি static HTML/CSS/JS project। GitHub Pages repository থেকে static files serve করতে পারে। Root-এ `index.html` রাখা হয়েছে এবং `.nojekyll` যোগ করা হয়েছে যাতে static project সরাসরি publish করা যায়।
