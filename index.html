@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A simple no-login study and MCQ practice app.">
+  <title>StudyMate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#" onclick="showHome();return false;">StudyMate</a>
+    <div class="actions">
+      <button class="icon-btn" onclick="toggleTheme()" id="themeBtn" title="Toggle theme">☾</button>
+      <button class="ghost-btn" onclick="showProgress()">Progress</button>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer>StudyMate · Learn at your own pace</footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
