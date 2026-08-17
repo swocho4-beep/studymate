@@ -1,16 +1,11 @@
-# StudyMate
+# StudyMate - Fully Fixed
 
-বাংলা SSC study app — শুধু জীববিজ্ঞান, রসায়ন, পদার্থবিজ্ঞান ও বাংলাদেশ ও বিশ্বপরিচয়।
+No login, no signup, no timer.
 
-- ৫৫টি chapter/section
-- ১২,০০০ original practice MCQ
-- chapter-specific practice
-- fresh question rotation via localStorage
-- option shuffle + wording variation
-- hard/concept-focused mode
-- definition/revision cards
-- model test + timer
-- no login, no backend
-- GitHub Pages ready
+Subjects: Biology (14), Chemistry (12), Physics (14), BGS (16) = 56 chapters. The BGS structure includes the SDG chapter.
 
-Board questions verbatim reproduce করা হয়নি; এটি original board-style practice.
+Quiz UX: direct question, four meaningful options, green correct state, red wrong state, correct answer highlighted after a wrong choice, explanation, no coaching sentences, shuffled options, and local history to prioritize unseen questions.
+
+Model Test: choose subject first, then question count. Mixed Model is also available.
+
+The bank is original practice content; it is not a verbatim copy of board-question sets.
